@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDDB6B2C1547FA6A00B3A497 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDB6B2B1547FA6A00B3A497 /* Cocoa.framework */; };
+		FDDB6B361547FA6A00B3A497 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDDB6B341547FA6A00B3A497 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDDB6B281547FA6A00B3A497 /* hotpants.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hotpants.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDB6B2B1547FA6A00B3A497 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FDDB6B2E1547FA6A00B3A497 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FDDB6B2F1547FA6A00B3A497 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FDDB6B301547FA6A00B3A497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDDB6B331547FA6A00B3A497 /* hotpants-Info.plist */ = {isa = PBXFileReference; path = "hotpants-Info.plist"; sourceTree = "<group>"; };
+		FDDB6B351547FA6A00B3A497 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDDB6B371547FA6A00B3A497 /* hotpants-Prefix.pch */ = {isa = PBXFileReference; path = "hotpants-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDDB6B251547FA6A00B3A497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDB6B2C1547FA6A00B3A497 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDDB6B1D1547FA6A00B3A497 = {
+			isa = PBXGroup;
+			children = (
+				FDDB6B311547FA6A00B3A497 /* hotpants */,
+				FDDB6B2A1547FA6A00B3A497 /* Frameworks */,
+				FDDB6B291547FA6A00B3A497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDDB6B291547FA6A00B3A497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB6B281547FA6A00B3A497 /* hotpants.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDDB6B2A1547FA6A00B3A497 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB6B2B1547FA6A00B3A497 /* Cocoa.framework */,
+				FDDB6B2D1547FA6A00B3A497 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDDB6B2D1547FA6A00B3A497 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB6B2E1547FA6A00B3A497 /* AppKit.framework */,
+				FDDB6B2F1547FA6A00B3A497 /* CoreData.framework */,
+				FDDB6B301547FA6A00B3A497 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FDDB6B311547FA6A00B3A497 /* hotpants */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB6B321547FA6A00B3A497 /* Supporting Files */,
+			);
+			path = hotpants;
+			sourceTree = "<group>";
+		};
+		FDDB6B321547FA6A00B3A497 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB6B331547FA6A00B3A497 /* hotpants-Info.plist */,
+				FDDB6B341547FA6A00B3A497 /* InfoPlist.strings */,
+				FDDB6B371547FA6A00B3A497 /* hotpants-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDDB6B271547FA6A00B3A497 /* hotpants */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDB6B3A1547FA6A00B3A497 /* Build configuration list for PBXNativeTarget "hotpants" */;
+			buildPhases = (
+				FDDB6B241547FA6A00B3A497 /* Sources */,
+				FDDB6B251547FA6A00B3A497 /* Frameworks */,
+				FDDB6B261547FA6A00B3A497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hotpants;
+			productName = hotpants;
+			productReference = FDDB6B281547FA6A00B3A497 /* hotpants.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDDB6B1F1547FA6A00B3A497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = jBSoft;
+			};
+			buildConfigurationList = FDDB6B221547FA6A00B3A497 /* Build configuration list for PBXProject "hotpants" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDDB6B1D1547FA6A00B3A497;
+			productRefGroup = FDDB6B291547FA6A00B3A497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDDB6B271547FA6A00B3A497 /* hotpants */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDDB6B261547FA6A00B3A497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDB6B361547FA6A00B3A497 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDDB6B241547FA6A00B3A497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDDB6B341547FA6A00B3A497 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDB6B351547FA6A00B3A497 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDDB6B381547FA6A00B3A497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FDDB6B391547FA6A00B3A497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDDB6B3B1547FA6A00B3A497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hotpants/hotpants-Prefix.pch";
+				INFOPLIST_FILE = "hotpants/hotpants-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FDDB6B3C1547FA6A00B3A497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hotpants/hotpants-Prefix.pch";
+				INFOPLIST_FILE = "hotpants/hotpants-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDDB6B221547FA6A00B3A497 /* Build configuration list for PBXProject "hotpants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDB6B381547FA6A00B3A497 /* Debug */,
+				FDDB6B391547FA6A00B3A497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDB6B3A1547FA6A00B3A497 /* Build configuration list for PBXNativeTarget "hotpants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDB6B3B1547FA6A00B3A497 /* Debug */,
+				FDDB6B3C1547FA6A00B3A497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDDB6B1F1547FA6A00B3A497 /* Project object */;
+}
