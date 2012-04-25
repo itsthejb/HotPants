@@ -15,7 +15,7 @@
 
 #include "AUInstrumentBase.h"
 #include "HotPantsVersion.h"
-#include "../CoreInclude.hpp"
+#include "CoreInclude.hpp"
 #include "ParamMapping.h"
 
 class HotPants: public AUMonotimbralInstrumentBase

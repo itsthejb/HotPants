@@ -22,8 +22,8 @@ namespace hotpants {
   // Parameter map
   //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   struct _parameterMap {
-    const   eParameter          enumVal = kParam_AmpAttack;
-    const   ParamValue          defValue = 0.0;
+    const   eParameter          enumVal;
+    const   ParamValue          defValue;
     const   ParamValue          maxValue;
     const   ParamValue          minValue;
     const   eParamUnitType      unit;

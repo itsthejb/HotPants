@@ -41,9 +41,11 @@
  */
 
 #include "HotPantsAU.h"
-#include "../CoreInclude.hpp"
+#include "CoreInclude.hpp"
+#include "ComponentBase.h"
 
-COMPONENT_ENTRY(HotPants)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, HotPants)
+//COMPONENT_ENTRY(HotPants)
 
 #pragma mark Counstructor & Initialiser
 

@@ -13,7 +13,7 @@
 #define PARAMMAPPING_H_
 
 #include "AUInstrumentBase.h"
-#include "../CoreInclude.hpp"
+#include "CoreInclude.hpp"
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Mapping types

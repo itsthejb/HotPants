@@ -14,7 +14,7 @@
 #ifndef UNITTEST_H_
 #define UNITTEST_H_
 
-#include "../CoreInclude.hpp"
+#include "CoreInclude.hpp"
 #include <cstdlib>
 #include <cstdio>
 
