@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AudioUnitComponents</key>
+	<dict>
+		<key>description</key>
+		<string>HotPants</string>
+		<key>factoryFunction</key>
+		<string>HotPantsEntry</string>
+		<key>manufacturer</key>
+		<string>jbsoft</string>
+		<key>name</key>
+		<string>HotPants</string>
+		<key>subtype</key>
+		<string>htpt</string>
+		<key>type</key>
+		<string>aumu</string>
+		<key>version</key>
+		<string>0xFFFFFFFF</string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.jbsort.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2012 jBSoft. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string></string>
+</dict>
+</plist>
